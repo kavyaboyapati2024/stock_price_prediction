@@ -1,0 +1,26 @@
+{
+    "XGBoost": {
+        "mse": 386.3557,
+        "mae": 12.8587,
+        "r2": 0.028,
+        "accuracy_within_2pct": 49.03
+    },
+    "Gradient Boosting": {
+        "mse": 381.1217,
+        "mae": 12.7189,
+        "r2": 0.0411,
+        "accuracy_within_2pct": 53.4
+    },
+    "Linear Regression": {
+        "mse": 10.3631,
+        "mae": 2.3131,
+        "r2": 0.9739,
+        "accuracy_within_2pct": 83.01
+    },
+    "Random Forest": {
+        "mse": 329.6027,
+        "mae": 11.7609,
+        "r2": 0.1708,
+        "accuracy_within_2pct": 53.88
+    }
+}

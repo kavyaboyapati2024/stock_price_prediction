@@ -55,7 +55,7 @@ def run_stock_prediction_analysis(ticker, start_date, end_date_input):
     df['Target'] = df['Close'].shift(-1)
 
     df.dropna(inplace=True)
-    df.reset_index(inplace=True)
+    #df.reset_index(inplace=True)
 
     features = ['Open', 'High', 'Low', 'Volume', 'SMA_14', 'EMA_14',
                 'RSI_14', 'MACD', 'MACD_Signal', 'Lag_1', 'Lag_2', 'Lag_3']
